@@ -16,8 +16,9 @@ body {
 
 header {
     text-align: center;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
+    background-color: #002855; /* Navy Blue */
+    color: white;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -25,13 +26,12 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     letter-spacing: 1px;
-    color: #002855; /* Navy Blue */
 }
 
 header h2 {
     margin: 5px 0;
     font-size: 1.5em;
-    color: #666;
+    color: #ddd;
 }
 
 header p {
@@ -39,7 +39,7 @@ header p {
 }
 
 header a {
-    color: #333;
+    color: white;
     text-decoration: none;
 }
 
@@ -63,6 +63,7 @@ section h3 {
     border-bottom: 2px solid #002855; /* Navy Blue */
     padding-bottom: 5px;
     margin-bottom: 10px;
+    color: #002855; /* Navy Blue */
 }
 
 section ul {
