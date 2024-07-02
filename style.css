@@ -6,20 +6,11 @@ body {
     color: #333;
 }
 
-.resume-container {
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    text-align: center;
+.header-container {
     background-color: #002855; /* Navy Blue */
     color: white;
+    text-align: center;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 header h1 {
@@ -47,14 +38,24 @@ header a:hover {
     text-decoration: underline;
 }
 
+.resume-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #e0e0e0; /* Light Grey */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .content {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
+.left-column, .right-column {
+    flex: 1;
+}
+
 section {
-    flex: 1 1 calc(50% - 20px);
     margin-bottom: 20px;
 }
 
